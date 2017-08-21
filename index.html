@@ -1,191 +1,119 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE html>
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US">  <!--<![endif]-->
-<head>
+    <head>
 
-<!-- META DATA -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alissa - Responsive Coming Soon Template</title>
 
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
-<!-- Title -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-<!-- CSS Global Compulsory -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css" >
+    </head>
 
-<!-- CSS Implementing Plugins -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
-<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
-<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
-<link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
-<link rel="stylesheet" type="text/css" href="css/vegas.min.css" />
-<link rel="stylesheet" type="text/css" href="css/menu.css" />
-<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+    <body>
 
-<!-- Fonts -->	
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,900' rel='stylesheet' type='text/css'>
+        <!-- Header -->
+        <div class="container">
+            <div class="row header">
+                <div class="col-sm-4 logo">
+                    <h1><a href="index.html">Alissa</a> <span>.</span></h1>
+                </div>
+                <div class="col-sm-8 call-us">
+                    <p>Tel: <span>0039 123 45 789</span> | Skype: <span>info@domain.it</span></p>
+                </div>
+            </div>
+        </div>
 
+        <!-- Coming Soon -->
+        <div class="coming-soon">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>We're Coming Soon</h2>
+                            <p>We are working very hard on the new version of our site. It will bring a lot of new features. Stay tuned!</p>
+                            <div class="timer">
+                                <div class="days-wrapper">
+                                    <span class="days"></span> <br>days
+                                </div>
+                                <div class="hours-wrapper">
+                                    <span class="hours"></span> <br>hours
+                                </div>
+                                <div class="minutes-wrapper">
+                                    <span class="minutes"></span> <br>minutes
+                                </div>
+                                <div class="seconds-wrapper">
+                                    <span class="seconds"></span> <br>seconds
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<!-- JS -->
-<script type="text/javascript" src="js/modernizr.js"></script>
-<script type="text/javascript" src="js/snap.svg-min.js"></script>
+        <!-- Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 subscribe">
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Sign up now to our newsletter and you'll be one of the first to know when the site is ready:</p>                    
+                    <form class="form-inline" role="form" action="assets/subscribe.php" method="post">
+                    	<div class="form-group">
+                    		<label class="sr-only" for="subscribe-email">Email address</label>
+                        	<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <div class="success-message"></div>
+                    <div class="error-message"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 social">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Flickr"><i class="fa fa-flickr"></i></a>
+                </div>
+            </div>
+        </div>
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<script src="http://webnextbd.net/demo/js/respond.min.js"></script>
-<![endif]-->
+        
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
 
-<!--[if lt IE 11]>
-<link rel="stylesheet" type="text/css" href="http://webnextbd.net/demo/css/ie.css">
-<![endif]-->
+    </body>
 
-</head>
-<body class="image-background">
-
-<!-- Preloader -->
-<div id="preloader">
-<div id="loading-animation">&nbsp;</div>
-</div>
-<!-- /Preloader -->
-
-<!-- Overlay -->
-<div id="section-home" class="home-section-wrap center">
-<div class="section-overlay"></div>
-</div>
-<!-- /Overlay -->
-
-<!-- container -->
-<div class="containers">
-<!-- menu -->
-<nav id="menu" class="menu">
-<button class="menu__handle"><span>Menu</span></button>
-<div class="menu__inner">
-<ul>
-<li><a href="index.html"><i class="fa fa-fw fa-home"></i><span>Home</span></a></li>
-<li><a href="about.html"><i class="fa fa-fw fa-info"></i><span>About</span></a></li>
-<li><a href="team.html"><i class="fa fa-fw fa-users"></i><span>Team</span></a></li>
-<li><a href="services.html"><i class="fa fa-fw fa-gear"></i><span>Services</span></a></li>
-<li><a href="portfolio.html"><i class="fa fa-fw fa-camera"></i><span>Portfolio</span></a></li>
-<li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i><span>Contact</span></a></li>
-</ul>
-</div>
-<div class="morph-shape" data-morph-open="M300-10c0,0,295,164,295,410c0,232-295,410-295,410" data-morph-close="M300-10C300-10,5,154,5,400c0,232,295,410,295,410">
-<svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
-<path fill="none" d="M300-10c0,0,0,164,0,410c0,232,0,410,0,410"/>
-</svg>
-</div>
-</nav><!-- /menu -->
-
-<!-- main -->
-<div class="main">
-<!-- header -->
-<header class="header-site">
-<div class="logo-site animated bounceInDown" data-animation-delay="700">
-<img class="img-responsive" src="images/logo.png" data-at2x="images/logo@2x.png" alt="Logo" />
-</div>
-</header>
-<!-- /header -->
-
-<!-- section -->                 
-<section class="section fullscreen site-main">
-<div class="container-section">
-<div class="container-table">
-<div class="content-table">
-<!-- bt-carousel -->
-<div class="bt-carousel">
-
-<!-- home section -->
-<div class="item-slide show">
-<!-- container -->
-<div class="container">
-<div class="row">
-<div class="col-md-10 col-md-offset-1">
-
-<!-- content slide -->
-<div class="content-slide">
-<!-- Clock Countdown -->
-<div id="clock-countdown" class="animated bounceInDown" data-animation-delay="700"></div>
-<h3 class="color-white top-margin animated bounceInDown" data-animation-delay="700" >Our website is under construction. We`ll be here soon with our new awesome site, subscribe to be notified.</h3>
-
-<!-- Subscribe Form -->
-<div class="form animated bounceInUp" data-animation-delay="700">
-<!-- container form -->
-<div class="container-form">
-<!-- section page -->
-<div class="section-page" id="signup">
-<form class="subscription-form mailchimp" method="post" id="mc-form">
-<input type="email" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Enter Your Email Address" />
-<button type="submit" id="subscribebtn" class="border-button no-bottom-margin">Subscribe</button>
-</form>
-<p class="message-error"></p>
-<p class="message-success"></p>
-</div><!-- /section page -->
-</div><!-- /container form -->
-</div><!-- /Subscribe Form -->
-
-<!-- socials icons -->
-<nav class="socials-icons animated bounceInUp" data-animation-delay="700">
-<ul>
-<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-<li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
-<li><a href="#"><i class="ion-social-dribbble-outline"></i></a></li>
-</ul> 
-</nav><!-- /socials icons -->
-
-<!-- copyright -->
-<footer class="copy-right animated bounceInUp" data-animation-delay="700">
-<div class="copyright">
-© 2016 <a href="http://templatestock.co">Template Stock</a> - All Rights Reserved
-</div>
-</footer><!-- /copyright -->
-
-</div><!-- /content slide -->
-</div>
-</div><!-- /row -->
-</div><!-- /container -->
-</div>
-<!-- /home section -->
-
-</div><!-- /bt-carousel -->
-</div>
-</div>
-</div>
-</section><!-- /section -->  
-</div><!-- /main -->
-</div><!-- /container -->        
-
-<!-- JS -->
-<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/retina.min.js"></script>
-<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-<script type="text/javascript" src="js/jquery.parallaxify.min.js"></script>
-<script type="text/javascript" src="js/jquery.particleground.min.js"></script>
-<script type="text/javascript" src="js/vegas.min.js"></script>
-<script type="text/javascript" src="js/trianglify.min.js"></script>
-<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/jquery.appear.js"></script>
-<script type="text/javascript" src="js/classie.js"></script>
-<script type="text/javascript" src="js/sidebar.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-</body>
 </html>
